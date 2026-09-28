@@ -1,0 +1,26 @@
+# Ignore compiled administration and storefront build outputs
+src/Resources/public/administration/
+src/Resources/public/storefront/
+
+src/Resources/app/administration/dist/
+src/Resources/app/storefront/dist/
+
+vendor/
+node_modules/
+.idea/
+*.log
+_ai/**/*.pdf
+
+# OS / editor noise
+.swp
+.DS_Store
+Thumbs.db
+*.tmp
+~*
+
+
+
+# +----------------------------+
+# |    Keep .gitkeep files     |
+# +----------------------------+
+!/**/.gitkeep

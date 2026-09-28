@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Topdata\TopdataReadableSqlExceptionsSW6\:
+        resource: '../../{Command,Controller,Service,Subscriber,ScheduledTask}'
